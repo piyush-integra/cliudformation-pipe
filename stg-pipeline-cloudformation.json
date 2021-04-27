@@ -815,10 +815,9 @@
     "ApplicationLoadBalancer" : {
 
       "Type" : "AWS::ElasticLoadBalancingV2::LoadBalancer",
-	"Name": "LoadName",
 
       "Properties" : {
-
+	"Name": "LoadName",
         "Subnets" : { "Ref" : "Subnets"}
 
       }
